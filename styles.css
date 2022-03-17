@@ -89,6 +89,11 @@ body{
     font-size: var(--md);
     padding: 6px;
 }
+.input-name,
+.input-email,
+.input-password{
+    margin-bottom: 22px;
+}
 .primary-button{
     background-color: var(--hospital-green);
     border-radius: 8px;
@@ -111,7 +116,7 @@ body{
     font-weight: bold;
     height: 50px;
     border: 1px solid var(--hospital-green);
-    border-top: -200px;
+    
 }
 .login-button{
     margin-top: 14px;
